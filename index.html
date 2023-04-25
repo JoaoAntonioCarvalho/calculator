@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style/index.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="result" readonly>
+    </div>
+    <div class="buttons">
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="operator" value="/" id="botao-divisao">/</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="operator" value="x" id="botao-vezes">x</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="operator" value="-" id="botao-menos">-</button>
+      <button class="number">0</button>
+      <button class="decimal">.</button>
+      <button class="operator" value="+" id="plus-button">+</button>
+      <button class="clear">C</button>
+      <button class="equal" id="equal-button">=</button>
+    </div>
+  </div>
+  <script src="./index.js" type="module"></script>
+  <script src="./src/controlaVisor.js" type="module"></script>
+</body>
+
+</html>
